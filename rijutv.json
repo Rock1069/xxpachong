@@ -6,7 +6,7 @@
   "cateId": "/@href",
   "cateIdR": "/Rlist/(\\d+).html",
   "cateManual": {},
-  "homeVodNode": "//ul/li//i[@class='continu']",
+  "homeVodNode": "//ul/li[@class='multi']/div[@class='cateimg playico']",
   "homeVodName": "//div[@class='itemname']/a",
   "homeVodId": "/a/@href",
   "homeVodIdR": "/R/(\\w+).html",
