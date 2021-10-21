@@ -17,7 +17,7 @@
   "cateVodName": "//div[@class='itemname']/a",
   "cateVodId": "/a/@href",
   "cateVodIdR": "/Riju/(\\w+).html",
-  "cateVodImg": "/a/img/@src",
+  "cateVodImg": "//a/img/@src",
   "cateVodMark": "/i@class='continu']/text()",
   "dtUrl": "https://www.bhbb.pw/Riju/{vid}.html",
   "dtNode": "//body",
