@@ -6,8 +6,8 @@
     "国产动漫": "9"
   },
   "homeVodNode": "//div[@class='listbox board clearfix']/ul/li/a",
-  "homeVodName": "//div[@class='listbox board clearfix']/ul/li/figcaption[@class='list-title']/h3/a/text()",
-  "homeVodId": "//figcaption[@class='list-title']/h3/a/@href",
+  "homeVodName": "/div[@class='listbox board clearfix']/ul/li/figcaption[@class='list-title']/h3/a/text()",
+  "homeVodId": "/figcaption[@class='list-title']/h3/a/@href",
   "homeVodIdR": "/voddetail/(\\w+)",
   "homeVodImg": "//div[@class='listbox board clearfix']/ul/li/a/ul/img/@src",
   "homeVodMark": "//div[@class='listbox board clearfix']/ul/li/a/span[1]",
