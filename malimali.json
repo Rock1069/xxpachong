@@ -5,7 +5,7 @@
     "日韩动漫": "10",
     "国产动漫": "9"
   },
-  "homeVodNode": "//div[@class='listbox board clearfix']/ul/li",
+  "homeVodNode": "//div[@class='listbox board clearfix']/ul/li/a",
   "homeVodName": "//div[@class='listbox board clearfix']/ul/li/figcaption[@class='list-title']/h3/a/text()",
   "homeVodId": "//figcaption[@class='list-title']/h3/a/@href",
   "homeVodIdR": "/voddetail/(\\w+)",
