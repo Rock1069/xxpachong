@@ -45,7 +45,7 @@
   "dtUrlNameR": "",
   "playUrl": "http://tv9box.com/vod-play-id-{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://tv9box.com/index.php?s=vod-search-{wd}",
+  "searchUrl": "http://tv9box.com/index.php?s=vod-search-name",
   "scVodNode": "json:list",
   "scVodName": "name",
   "scVodId": "id",
