@@ -1,0 +1,269 @@
+{
+  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+  "homeUrl": "https://www.agemys.com/update",
+  "dcVipFlag": "true",
+  "pCfgJs": "https://www.agemys.com/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+  "cateNode": "//div[@id='root']/header[@id='nav']/a[contains(@href, '/')]",
+  "cateName": "/text()",
+  "cateId": "/@href",
+  "cateIdR": "/(\\w+)",
+  "cateManual": {
+    "全部": "",
+    "中国": "-中国-all-all",
+    "日本": "-日本-all-all",
+    "欧美": "-欧美-all-all"
+  },
+  "homeVodNode": "//div[@class='blockcontent']//ul[@class='ul_li_a6']/li",
+  "homeVodName": "/h4[@class='anime_icon2_name']/a/text()",
+  "homeVodId": "/h4[@class='anime_icon2_name']/a/@href",
+  "homeVodIdR": "/detail/(\\w+)",
+  "homeVodImg": "//img/@src",
+  "homeVodMark": "//img/@title",
+  "cateUrl": "https://www.agemys.com/catalog/all-all-all-all-all-time-{catePg}{cateId}",
+  "cateVodNode": "//div[@class='blockcontent1']/div/a",
+  "cateVodName": "/img/@alt",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/detail/(\\w+)",
+  "cateVodImg": "/img/@src",
+  "cateVodMark": "/span[@class='newname']/text()",
+  "dtUrl": "https://www.agemys.com/detail/{vid}",
+  "dtNode": "//div[@id='container']",
+  "dtName": "//div[@class='div_left']/div[@class='baseblock'][1]/div[@class='blockcontent']/img/@alt",
+  "dtNameR": "",
+  "dtImg": "//div[@class='blockcontent']/img/@src",
+  "dtImgR": "\\S+(http\\S+)",
+  "dtCate": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '类型')]/following-sibling::*/text()",
+  "dtCateR": "",
+  "dtYear": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '更新时间')]/following-sibling::*/text()",
+  "dtYearR": "",
+  "dtArea": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '更新时间')]/following-sibling::*/text()",
+  "dtAreaR": "",
+  "dtMark": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '状态')]/following-sibling::*/text()",
+  "dtMarkR": "",
+  "dtActor": "//div[@class='div_left']/div[@class='baseblock'][2]//span[@class='detail_imform_tag' and contains(text(), '主演')]/following-sibling::*/text()",
+  "dtActorR": "",
+  "dtDirector": "",
+  "dtDirectorR": "",
+  "dtDesc": "//div[@class='div_right']/div[@class='baseblock'][2]//p/text()",
+  "dtDescR": "",
+  "dtFromNode": "//div[@id='playlist-div']/ul[@class='menu0']/li",
+  "dtFromName": "/text()",
+  "dtUrlNode": "//div[@id='playlist-div']/div[@class='main0']/div",
+  "dtUrlSubNode": "//li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "/play/(\\S+)",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "https://www.agemys.com/play/{playUrl}",
+  "playUa": "",
+  "searchUrl": "https://www.agemys.com/dongmansearch.html?wd={wd}&page=1",
+  "scVodNode": "json:list",
+  "scVodName": "name",
+  "scVodId": "id",
+  "scVodIdR": "",
+  "scVodImg": "pic",
+  "scVodMark": "",
+  "filter": {
+    "20": [
+            {
+                "key": "area",
+                "name": "地区",
+                "value": [
+                    {
+                        "n": "全部",
+                        "v": ""
+                    },
+                    {
+                        "n": "连载中",
+                        "v": "连载中"
+                    },
+                    {
+                        "n": "已完结",
+                        "v": "已完结"
+                    },
+                    {
+                        "n": "未开播",
+                        "v": "未开播"
+                    }
+                ]
+            },
+            {
+                "key": "year",
+                "name": "年份",
+                "value": [
+                    {
+                        "n": "全部",
+                        "v": ""
+                    },
+                    {
+                        "n": "2022",
+                        "v": "2022"
+                    },
+                    {
+                        "n": "2021",
+                        "v": "2021"
+                    },
+                    {
+                        "n": "2020",
+                        "v": "2020"
+                    },
+                    {
+                        "n": "2019",
+                        "v": "2019"
+                    },
+                    {
+                        "n": "2018",
+                        "v": "2018"
+                    },
+                    {
+                        "n": "2017",
+                        "v": "2017"
+                    },
+                    {
+                        "n": "2016",
+                        "v": "2016"
+                    },
+                    {
+                        "n": "2015",
+                        "v": "2015"
+                    }
+                ]
+            }
+        ],
+   "21": [
+            {
+                "key": "area",
+                "name": "地区",
+                "value": [
+                    {
+                        "n": "全部",
+                        "v": ""
+                    },
+                    {
+                        "n": "连载中",
+                        "v": "连载中"
+                    },
+                    {
+                        "n": "已完结",
+                        "v": "已完结"
+                    },
+                    {
+                        "n": "未开播",
+                        "v": "未开播"
+                    }
+                ]
+            },
+            {
+                "key": "year",
+                "name": "年份",
+                "value": [
+                    {
+                        "n": "全部",
+                        "v": ""
+                    },
+                    {
+                        "n": "2022",
+                        "v": "2022"
+                    },
+                    {
+                        "n": "2021",
+                        "v": "2021"
+                    },
+                    {
+                        "n": "2020",
+                        "v": "2020"
+                    },
+                    {
+                        "n": "2019",
+                        "v": "2019"
+                    },
+                    {
+                        "n": "2018",
+                        "v": "2018"
+                    },
+                    {
+                        "n": "2017",
+                        "v": "2017"
+                    },
+                    {
+                        "n": "2016",
+                        "v": "2016"
+                    },
+                    {
+                        "n": "2015",
+                        "v": "2015"
+                    }
+                ]
+            }
+        ],
+       "26": [
+            {
+                "key": "area",
+                "name": "地区",
+                "value": [
+                    {
+                        "n": "全部",
+                        "v": ""
+                    },
+                    {
+                        "n": "连载中",
+                        "v": "连载中"
+                    },
+                    {
+                        "n": "已完结",
+                        "v": "已完结"
+                    },
+                    {
+                        "n": "未开播",
+                        "v": "未开播"
+                    }
+                ]
+            },
+            {
+                "key": "year",
+                "name": "年份",
+                "value": [
+                    {
+                        "n": "全部",
+                        "v": ""
+                    },
+                    {
+                        "n": "2022",
+                        "v": "2022"
+                    },
+                    {
+                        "n": "2021",
+                        "v": "2021"
+                    },
+                    {
+                        "n": "2020",
+                        "v": "2020"
+                    },
+                    {
+                        "n": "2019",
+                        "v": "2019"
+                    },
+                    {
+                        "n": "2018",
+                        "v": "2018"
+                    },
+                    {
+                        "n": "2017",
+                        "v": "2017"
+                    },
+                    {
+                        "n": "2016",
+                        "v": "2016"
+                    },
+                    {
+                        "n": "2015",
+                        "v": "2015"
+                    }
+        ]
+      }
+    ]
+  }
+}
